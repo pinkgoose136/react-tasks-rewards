@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-tasks-rewards/static/css/main.6194ae1e.css",
-    "main.js": "/react-tasks-rewards/static/js/main.f0371c48.js",
+    "main.js": "/react-tasks-rewards/static/js/main.b2e910df.js",
     "static/js/453.6d1fd2c7.chunk.js": "/react-tasks-rewards/static/js/453.6d1fd2c7.chunk.js",
     "index.html": "/react-tasks-rewards/index.html",
     "main.6194ae1e.css.map": "/react-tasks-rewards/static/css/main.6194ae1e.css.map",
-    "main.f0371c48.js.map": "/react-tasks-rewards/static/js/main.f0371c48.js.map",
+    "main.b2e910df.js.map": "/react-tasks-rewards/static/js/main.b2e910df.js.map",
     "453.6d1fd2c7.chunk.js.map": "/react-tasks-rewards/static/js/453.6d1fd2c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6194ae1e.css",
-    "static/js/main.f0371c48.js"
+    "static/js/main.b2e910df.js"
   ]
 }
