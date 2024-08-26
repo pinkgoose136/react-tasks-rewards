@@ -62,15 +62,15 @@ function App() {
     if (type === 'task') {
       const task = tasks.find(t => t.id === id);
       setBalance(prev => prev + Number(task.price));
-      const updatedTasks = tasks.filter(t => t.id !== id);
-      setTasks(updatedTasks);
-      localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+    //  const updatedTasks = tasks.filter(t => t.id !== id);
+    //  setTasks(updatedTasks);
+    //  localStorage.setItem('tasks', JSON.stringify(updatedTasks));
     } else if (type === 'reward') {
       const reward = rewards.find(r => r.id === id);
       setBalance(prev => prev - Number(reward.price));
-      const updatedRewards = rewards.filter(r => r.id !== id);
-      setRewards(updatedRewards);
-      localStorage.setItem('rewards', JSON.stringify(updatedRewards));
+      //const updatedRewards = rewards.filter(r => r.id !== id);
+      //setRewards(updatedRewards);
+      //localStorage.setItem('rewards', JSON.stringify(updatedRewards));
     }
     localStorage.setItem('balance', JSON.stringify(balance));
     setItemModalOpen(false);
